@@ -1,0 +1,22 @@
+body
+{
+    font-family: Arial, sans-serif;
+    background-color: forestgreen;
+    color: black;
+    text-align: left;
+}
+.month
+{
+    border: 1px solid #93deab;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 5px;
+    display: inline-block;
+    height: 30%;
+    width: 28vh;
+    background-color: #93deab;
+}
+p {
+    color: black;
+    font-size: 15px;
+}
