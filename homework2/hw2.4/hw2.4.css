@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    text-align: center;
+    display: flex;
+    gap: 230px;
+    margin-top: 0;
+}
+.pixels {
+    border: 1px solid #d1b89d;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vh;
+    height: 20vh;
+    background-color: bisque;
+    font-family: fantasy;
+
+}
+.display{
+    border: 1px solid #d1b89d;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vh;
+    height: 20vh;
+    background-color: bisque;
+    font-family: "Comic Sans MS", cursive;
+}
+.Script{
+    border: 1px solid #d1b89d;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vh;
+    height: 20vh;
+    background-color: bisque;
+    font-family: ui-monospace;
+}
+.One{
+    border: 1px solid #d1b89d;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vh;
+    height: 20vh;
+    background-color: bisque;
+    font-family: fantasy;
+}
+.Flower{
+    border: 1px solid #d1b89d;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vh;
+    height: 20vh;
+    background-color: bisque;
+    font-family: serif;
+}
