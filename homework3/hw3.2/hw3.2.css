@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+}
+.pink {
+    background-color: pink;
+    height: 50vh;
+}
+h2{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 70px;
+    font-size: 35px;
+    font-family: "Orbitron", sans-serif;
+}
+p{
+    font-size: 35px;
+    font-family: "Orbitron", sans-serif;
+    padding: 0 40px ;
+}
+.dark{
+    background-color: black;
+    height: 50vh;
+}
+.dark h2{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 70px;
+    font-size: 35px;
+    font-family: "Orbitron", sans-serif;
+    color: white;
+}
+.dark p{
+    font-size: 35px;
+    font-family: "Orbitron", sans-serif;
+    padding: 0 40px ;
+    color: white;
+}
+.pink::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 5px;
+    background: red;
+}
+.pink::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 20px;
+    width: 5px;
+    height: 50%;
+    background: red;
+}
