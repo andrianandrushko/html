@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    scroll-behavior: smooth;
+    min-height: 150px;
+}
+.orangered{
+    background-color: orangered;
+    height: 105vh;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 170px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    font-family: "Orbitron", sans-serif;
+}
+p{
+    margin: 0 40px;
+    padding-bottom: 5px;
+    font-size: 25px;
+    font-family: "Orbitron", sans-serif;
+}
+.lightseagreen{
+    background-color: lightseagreen;
+    height: 120vh;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 170px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    font-family: "Orbitron", sans-serif;
+}
+p{
+    font-size: 25px;
+    font-family: "Orbitron", sans-serif;
+    padding-top: 5px;
+    margin:  40px;
+}
+.green{
+    background-color: green;
+    height: 105vh;
+}
+h3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 170px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    font-family: "Orbitron", sans-serif;
+}
+p{
+    font-size: 25px;
+    font-family: "Orbitron", sans-serif;
+    padding-top: 5px;
+    margin: 0 40px;
+}
+.arrow {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    margin: 20px 0;
+    padding-top: 5px;
+}
