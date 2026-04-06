@@ -1,0 +1,77 @@
+*{
+    position: relative;
+    margin: 0;
+}
+header{
+
+    position : relative;
+    height: 10vh;
+    background: #D9D9D9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-family: Inter, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+footer{
+    position: relative;
+    height: 10vh;
+    background: #D9D9D9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-family: Inter, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+main {
+    display: flex;
+}
+aside{
+    transform: scaleY(2.5);
+    transform-origin: top;
+    margin-bottom: 42vh;
+    position: relative;
+    height: 28vh;
+    width: 60vw;
+    background: #A4A4A4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+article{
+    position: relative;
+    height: 10vh;
+    background: #AFA9A9;
+}
+.gray{
+    transform: scaleX(2.43);
+    transform-origin: left;
+    position: relative;
+    top: 0;
+    height: 35vh;
+    width: 29vw;
+    background: #7F7A7A;
+}
+section{
+    transform: scaleX(1.7);
+    transform-origin: right;
+    position: relative;
+    top: 35vh;
+    height: 35vh;
+    width: 41.5vw;
+    background: #615050;
+}
