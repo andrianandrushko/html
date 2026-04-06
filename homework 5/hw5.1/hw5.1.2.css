@@ -1,0 +1,38 @@
+.wrapped{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.diamond{
+    margin: 105px auto 0 auto;
+    width: 200px;
+    height: 200px;
+    background: yellow;
+    transform: rotate(45deg);
+    animation: lorem 5s linear infinite alternate;
+}
+@keyframes lorem{
+    from{
+        transform: rotate(45deg);
+    }
+    40%{
+        transform: rotateY(-45deg);
+        background: green;
+    }
+    50%{
+        transform: scaleY(2.0);
+        background: blue;
+    }
+    60%{
+        transform: scaleY(1.0);
+        transition: 2s;
+        background: red;
+    }
+    70%{
+        transform: skewX(-45deg);
+    }
+    to{
+        border-radius: 70%;
+        transform: rotate(-45deg);
+    }
+}
