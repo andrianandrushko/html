@@ -1,0 +1,63 @@
+*{
+    background-color: lightseagreen;
+}
+.section{
+    border: 1px solid white;
+    background-color: white;
+    height: 50vh;
+    width: 65vh;
+    margin: 140px 0 0 62vh;
+    border-radius: 10px;
+}
+.section h1{
+    text-align: center;
+    background:#f0ffff;
+    padding: 35px 5px 40px 30px;
+    border-radius: 10px;
+    margin: -1px -1px 45px -1px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+
+}
+.form-registration{
+    background: none;
+    margin: 52px 0 0 55px;
+}
+.form-registration2{
+    background: none;
+    margin: 40px 0 0 55px;
+}
+input{
+    background-color: white;
+    height: 35px;
+    width: 50vh;
+}
+.article{
+    position: relative;
+    top: 25px;
+    background: none;
+}
+input[type="checkbox"]{
+    position: relative;
+    top: 53px;
+    width: 70px;
+    height: 15px;
+    margin-left: 17vh;
+}
+.article p{
+    position: relative;
+    top: 10px;
+    left: 7px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    background: none;
+    margin-left: 50px;
+}
+button{
+    background:#f0ffff;
+    margin-left: 50vh;
+    height: 4vh;
+    width: 12vh;
+    border-radius: 10px;
+    transform: translateX(-4vh) translateY(-2vh);
+}
