@@ -1,0 +1,113 @@
+*{
+    background: none;
+}
+.header{
+    background-color: ghostwhite;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    height: 50vh;
+    width: 65vh;
+    margin: 140px 0 0 62vh;
+}
+.header h1{
+    position: relative;
+    top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 65px;
+    font-family: "Meow Script", cursive;
+}
+.form-registration{
+    position: relative;
+    top: 100px;
+    left: 170px;
+}
+input[type="email"]{
+    height: 40px;
+    width: 35vh;
+    border-radius: 5px;
+}
+.form-registration2{
+    position: relative;
+    top: 130px;
+    left: 170px;
+}
+input[type="password"]{
+    height: 40px;
+    width: 35vh;
+    border-radius: 5px;
+}
+.footer{
+    position: relative;
+    top: 15px;
+    margin-left: 110px;
+}
+input[type="submit"]{
+    position: relative;
+    left: 60px;
+    top: 150px;
+    border: none;
+    background-color: dodgerblue;
+    color: white;
+    height: 40px;
+    width: 36vh;
+    border-radius: 5px;
+}
+.section{
+    position: relative;
+    top: 175px;
+    color: gray;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    margin-left: 380px;
+}
+.image{
+    margin-left: 150px;
+    margin-top: 35px;
+}
+img{
+    position: relative;
+    top: 170px;
+    left: 130px;
+    height: 20px;
+    width: 20px;
+}
+.image p1{
+    position: fixed;
+    margin-top: 170px;
+    color: royalblue;
+    margin-left: 140px;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+}
+.text{
+    margin-right: 25px;
+    margin-top: 200px;
+    text-align: center;
+    color: darkblue;
+    font-size: 17px;
+    font-family: Arial, sans-serif;
+}
+.box{
+    margin-top: 7px;
+    margin-left: 62vh;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    height: 10vh;
+    width: 65vh;
+}
+.box p{
+    margin-left: 180px;
+    margin-top: 45px;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+}
+span{
+    position: relative;
+    top: -42.5px;
+    margin-left: 36vh;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    color: deepskyblue;
+}
