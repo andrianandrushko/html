@@ -1,0 +1,17 @@
+@media screen and (max-width: 480px) {
+    .wrapper{
+        flex-direction: column;
+    }
+    .wrapper-content{
+        height: 60vh;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        width: 120%;
+    }
+    .wrapper-content img{
+        position: relative;
+        left: 15px;
+    }
+
+}

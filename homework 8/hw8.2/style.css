@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+}
+.wrapper{
+    transform: scale(0.8);
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper-content{
+    display: flex;
+    gap: 32px;
+    width: 167vh;
+}
