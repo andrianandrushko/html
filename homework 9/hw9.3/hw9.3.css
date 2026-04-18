@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+}
+.grid{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 80% 20% 20%;
+    grid-template-rows: 10% 20% 50%;
+    grid-template-areas:
+        "header header"
+        "main right-higher"
+        "main right-lower"
+        "footer footer"
+        "article article"
+;
+}
+.header{
+    grid-area: header;
+    background: #D9D9D9;
+}
+.main{
+    grid-area: main;
+    background: #A4A4A4;
+}
+.right-higher{
+    height: 35vh;
+    grid-area: right-higher;
+    background: #7F7A7A;
+}
+.right-lower{
+    margin-top: 15vh;
+    grid-area: right-lower;
+    background: #615050;
+}
+.footer{
+    grid-area: footer;
+    background: #D9D9D9;
+}
+.article{
+    grid-area: article;
+    background: #AFA9A9;
+}
