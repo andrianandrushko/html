@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+}
+.grid{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 80% 20% 20%;
+    grid-template-rows: 20% 20% 20%;
+    grid-template-areas:
+        "header header"
+        "higher-main right-higher"
+        "medium-main right-higher"
+        "lower-main  right-lower"
+        "footer footer";
+}
+.header{
+    grid-area: header;
+    color: #000;
+    font-family: Inter, sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: #8D8484;
+    text-align: center;
+    padding-top: 85px;
+}
+.higher-main{
+    grid-area: higher-main;
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: #776969;
+    text-align: center;
+    padding-top: 95px;
+}
+.medium-main{
+    grid-area: medium-main;
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: #643030;
+    text-align: center;
+    padding-top: 95px;
+}
+.lower-main{
+    grid-area: lower-main;
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: #441818;
+    text-align: center;
+    padding-top: 95px;
+}
+.right-higher{
+    height: 30vh;
+    grid-area: right-higher;
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: #937575;
+    text-align: center;
+    padding-top: 95px;
+}
+.right-lower{
+    margin-top: -130px;
+    grid-area: right-lower;
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: #644C4C;
+    text-align: center;
+    padding-top: 95px;
+}
+.footer{
+    grid-area: footer;
+    color: #000;
+    font-family: Inter, sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: #BDBDBD;
+    text-align: center;
+    padding-top: 85px;
+}
